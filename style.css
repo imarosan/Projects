@@ -1,0 +1,170 @@
+html, body {
+font-family: Futura;
+color: #202124;
+height: 100%;
+margin: 0;
+}
+
+h1 {
+font-size: 42pt;
+margin: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+margin: 50px 0px 30px 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+width: 100%;
+overflow: hidden;
+}
+.cardl {
+padding-left: 25px;
+padding-top: 15px;
+float: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card {
+padding: 15px;
+float: right;
+}
+.navbar a {
+color: #202124;
+padding: 7px;
+}
+.navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
+text-decoration: none;
+}
+.navbar a:active, .navbar a:hover {
+text-decoration: underline;
+}
+.scon {
+width: 525px;
+display: block;
+
+}
+.searchbar {
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+border: none;
+box-sizing: border-box;
+outline: none;
+box-shadow: none;
+}
+.searchbarad {
+padding-top: 5px;
+padding-bottom: 5px;
+width: 100%;
+box-sizing: border-box;
+}
+.searchbutton {
+background-color: #e4e6e9;
+border-style: none;
+margin: 11px 4px;
+padding: 8px 16px;
+}
+.searchbuttonad {
+float: right;
+background-color: #4D90FE;
+color: #FFFFFF;
+border-style: none;
+padding: 8px 16px;
+}
+
+.container {
+height: 70%;
+display: flex;
+align-items: center;
+}
+.searchcon {
+margin-top: 20px;
+height: 111px;
+}
+.images {
+position: absolute;
+left:237px;bottom:0;
+margin: 0px;
+letter-spacing: 4px;
+}
+.yoogle {
+text-align: center;
+box-sizing: border-box;
+width: 100%;
+}
+.imagescon {
+display:flex;
+flex-direction:column;
+align-items:center;
+height: 88px;
+}
+.con {
+position: relative;
+height:100%;
+margin-top:auto;
+}
+.searchcontainer {
+border-color: #888888;
+border-style: solid;
+border-width: 1px;
+border-radius: 20px;
+margin-bottom: 20px;
+margin-top: 10px;
+width: 100%;
+box-sizing: border-box;
+display: flex;
+}
+.center {
+width: 600px;
+display: block;
+margin: 0 auto;
+}
+.falrs {
+cursor: pointer;
+}
+.searchbutton:hover {
+box-shadow: 0 0 1px 1px #888888;
+}
+.searchbuttonad:hover {
+box-shadow: 0 0 1px 1px #888888;
+}
+.searchcontainer:hover {
+    box-shadow: 0 0 1px 1px #888888;
+}
+.advanceds {
+margin-top: 50px;
+margin-left: 50px;
+margin-right: 40px;
+}
+.advanced-table {
+height: 50px;
+display:flex;
+}
+.table-name {
+width: 210px;
+min-width: 210px;
+}
+.input-table {
+width: 600px;
+}
+.adbutton {
+width: 810px;
+height: 70px;
+}
+@media screen and (max-width: 626px) {
+.center {
+    width: 97%;
+}
+.scon {
+    width: 87.5%;
+}
+.falr {
+    width: 12.125%;
+}
+}
+@media screen and (max-width: 900px) {
+    .adbutton {
+        width: 100%;
+        }
+    }
